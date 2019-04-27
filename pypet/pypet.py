@@ -3,20 +3,22 @@
 import random
 
 axolotl = {
-    "photo": "W(o_.._o)W", 
+    "photos": [" W(o_.._o)W "," ≽(◕ ᴗ ◕ )≼ ", " ≽(♥ ᴗ ♥ )≼ ", " ≽(^ ᗜ ^)≼ "],  
     "name": "Axólotl, el mágico anfibio mexicano.",
     "weight": 1.1,
     "age" : 2,
     "hungry": True,
+    "feeding": " ≽(^ ᗜ ^)≼  ",
     "phrases": ["Soy el ser de las profundidades.", "La naturaleza es el camino de regreso a casa.", "Sólo toma el camino más natural a tu alcance.", "Flow system", "Hack, amigo, hack!"] 
 }
 
 
-print(axolotl["photo"])
+print random.choice(axolotl["photos"])
 
 def startup_pypet():
     print("Hola! Recuerda cuidar tu axolotl virtual.")
- 
+
+startup_pypet() 
 
 def pypet_stats():
     print("Hola, mi nombre es " + axolotl["name"])
@@ -31,7 +33,7 @@ else:
 terminate = False
 
 while not terminate:
-    print("ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ")
+    print("ooooooooooo")
 
     user_input = raw_input("> ")
 
@@ -44,7 +46,8 @@ while not terminate:
     elif user_input == "alimentar":
 	axolotl["weight"] = axolotl["weight"] + 0.1
         hungry = False
-        print("¡Yum! ¡Qué rico!") 
+        print("¡Yum! ¡Qué rico!")
+        print(axolotl["feeding"]) 
 
     elif user_input == "textear":
 	print random.choice(axolotl["phrases"])
@@ -53,5 +56,5 @@ while not terminate:
          print("Lo siento, hubo un error.")
 
 print "¡Hasta pronto!"
-print axolotl["photo"]
+print random.choice(axolotl["photos"])
 
