@@ -3,7 +3,7 @@
 import random
 
 axolotl = {
-    "photos": [" W(o_.._o)W "," ≽(◕ ᴗ ◕ )≼ ", " ≽(♥ ᴗ ♥ )≼ ", " ≽(^ ᗜ ^)≼ "],  
+    "photos": [" W(o_.._o)W "," ≽(◕ ᴗ ◕ )≼ ", " ≽(♥ ᴗ ♥ )≼ ", " ≽(^ ᗜ ^)≼ ", " ≽(O _ o)≼  ", " ≽ (◝ _ ◜)≼  "," ≽ (⊙ _ ⊙ )≼, ", " ≽( ᵕ ‿ ᵕ)≼  ", " ≽(° ∩ °)≼ ", " ≽(ට ~ ට)≼  ", " ≽(★ ᴗ ★ )≼  ", " ≽ (⌐ _ ⌐ )≼  ", " ≽(˘ ∩ ˘)≼  "],  
     "name": "Axólotl, el mágico anfibio mexicano.",
     "weight": 1.1,
     "age" : 2,
@@ -22,6 +22,7 @@ startup_pypet()
 
 def pypet_stats():
     print("Hola, mi nombre es " + axolotl["name"])
+    print random.choice(axolotl["photos"])
     print("Peso: " + str(axolotl["weight"]))
 
 if axolotl["hungry"]: 
@@ -51,6 +52,7 @@ while not terminate:
 
     elif user_input == "textear":
 	print random.choice(axolotl["phrases"])
+        print random.choice(axolotl["photos"])
  
     else:
          print("Lo siento, hubo un error.")
