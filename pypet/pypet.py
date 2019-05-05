@@ -34,7 +34,6 @@ else:
 terminate = False
 
 while not terminate:
-    print("ooooooooooo")
 
     user_input = raw_input("> ")
 
@@ -53,9 +52,13 @@ while not terminate:
     elif user_input == "textear":
 	print random.choice(axolotl["phrases"])
         print random.choice(axolotl["photos"])
- 
+    
+    elif user_input == "ayuda":
+        print("Escribe alguno de los siguientes comandos.") 
+        print("alimentar, quitar, estadísticas, textear")
     else:
-         print("Lo siento, hubo un error.")
+         print("3o_OE")
+         print("Lo siento, no te entiendo.")
 
 print "¡Hasta pronto!"
 print random.choice(axolotl["photos"])
