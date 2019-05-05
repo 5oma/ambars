@@ -1,19 +1,35 @@
-#Simulemos el acuario!
+"""¡Simulemos el acuario!
+
+"""
 
 #Librerías
 import random
 
-#Establecimiento del acuario
+"""Establecimiento del acuario
 
+Al iniciar nuestro acuario
+con agua nueva y ocupantes, 
+el filtro nuevo (sin comunidad
+microbiana asentada) es fácilmente
+rebasado. 
 
-#Valores de inicio
+La conversión de nitrogenados a
+compuestos nitrogenados inofensivos no 
+es suficiente, y los nitrogenados 
+se convierten en amoniáco por oxidación, 
+el cual es tóxico en pequeñas
+concentraciones. 
+ 
+"""
+
+# Valores de inicio
 
 day = 0
 parameter1 = 0 
 members = 3
 
 
-#El día a día
+# Día a día
 
 for i in range(100):
     day = day + 1
@@ -26,7 +42,7 @@ for i in range(100):
         members -= 1
         print("Axólotl ha muerto.")
 
-#Intervención en el parámetro. 
+# Intervención en el parámetro. 
 
 def cambio_de_agua():
     parameter1 = parameter1 - .15
@@ -40,8 +56,35 @@ if day > 16:
    print("El acuario se ha establecido")
 
 
-# El acuario balanceado
 
+
+
+""" El acuario balanceado
+
+Una vez solucionado el establecimiento de
+un acuario, comenzamos a realizar tareas
+de mantenimiento con menores cambios de
+agua. 
+
+Algunos parámetros importantes en el
+mantenimiento.  
+
+PH
+
+
+
+"""
+
+#rangos para parámetros
+
+if parameter1 > x and parameter1 < y:
+    print("Parámetro dentro de su rango")
+elif parameter1 > m and parameter1 < j;
+    print("Parámetro en zona de peligro")
+else: 
+    print("Parámetro fuera de control")
+
+ 
 
 #valores de inicio
 
@@ -49,14 +92,33 @@ day = 16
 parameter1 = 2
 parameter2 = 5
 parameter3 = 5
-parameter6 = 7
+parameter4 = 7
 
-#acciones de control de parámetros
-#interesante ver cómo interactúan
+
+
+#acciones en el acuario que desembocan en
+#picos de amoniáco
+
+#Introducción de especia
+
+
+
+
+#de control de parámetros
+
+
+
+
+
+
+# día a día
+
+# cambios o limpias de filtro
+
+# salida de control
+
+# interesante colocar algunas interacciones
 
 #alertas
 
 #muertes
-
-
-
