@@ -96,8 +96,75 @@ parameter4 = 7
 
 
 
+#parámetros
+
+"""The critical water quality parameters that directly affect the axolotl's health include water temperature, ammonia (NH3), nitrite (NO2-), nitrate (NO3-), pH, carbonate hardness (KH, also known as alkalinity), general hardness (GH, also known as permanent hardness) and dissolved oxygen (DO). Additionally, some parameters have diurnal fluctuations. Imbalances in any one of these parameters may have an impact on others and these inter-relationships will be explained. But before the specifics of each water quality parameter is discussed, they must understand the nitrogen cycle."""
+
+
+"""Several factors affect the performance of the biofilter and they include:
+
+ Temperature (works between 12–58°C, most efficient between 28–36°C)
+
+ The pH of the water (reactions occurring faster between a pH of 8–9, but is impeded at pH < 5)"""
+
+ #Temperatura
+ afecta = ["tasa metabólica", "monto de alimento", "crecimiento", "reproducción", "procesos fisiológicos", "función de enzimas", "sistema inmunológico", "actividad general"] 
+
+rango de temperatura =  temperatura > 15 and temperatura < 20  
+
+if temperatura > 24: 
+    # axolotl innapetance
+# hongo en la piel
+    # flotamiento
+
+#tratamiento
+#enfriamento
+
+def enfriar(axolotl):
+
+#más antibiótico por si ocurre una infección bacterial
+
+""" """
+
+# pH
+# El ph es una medida de la acidez del agua. 
+
+if ph > 7 :
+    "El agua es alcalina"
+if ph < 7 :
+    "El agua es acídica"
+
+# Suciedad, o mucha materia orgánica baja el ph. 
+# A 4.5 también se paran las funciones de la comunidad microbiana. 
+# El cambio del parámetro debe ser gradual.
+
+""" """
+
+# amoníaco (NH3)
+# los siguientes parámetros en
+# https://www.vin.com/apputil/content/defaultadv1.aspx?id=7259211&pid=14365&print=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #acciones en el acuario que desembocan en
 #picos de amoniáco
+
+
+
 
 #Introducción de especia
 
